@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malek Ahmed — Video Editor &amp; Content Creator</title>
+  <meta name="description"
+    content="Malek Ahmed is a video editor and content creator based in Egypt, turning ideas into impact through cinematic storytelling, short-form content, and brand films.">
+  <meta name="theme-color" content="#0D0B09">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600&family=Sacramento&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#work">Skip to content</a>
+
+  <header class="nav" data-theme="dark">
+    <a class="nav__brand" href="#home" aria-label="Malek Ahmed — home">MA</a>
+
+    <nav class="nav__links" aria-label="Primary">
+      <ul>
+        <li><a href="#home" aria-current="page">Home</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav__right">
+      <div class="nav__meta micro-label">
+        <span>Video Editor</span>
+        <span>Based in Egypt</span>
+        <span>Working Worldwide</span>
+      </div>
+      <a class="btn" href="#contact">Let's Talk <span class="btn__arrow">→</span></a>
+      <button type="button" class="nav__toggle" aria-expanded="false" aria-controls="nav-overlay"
+        aria-label="Open menu">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <div id="nav-overlay" class="nav-overlay" hidden>
+    <nav class="nav-overlay__links" aria-label="Mobile">
+      <ul>
+        <li><a href="#home" class="display">Home</a></li>
+        <li><a href="#work" class="display">Work</a></li>
+        <li><a href="#about" class="display">About</a></li>
+        <li><a href="#services" class="display">Services</a></li>
+        <li><a href="#contact" class="display">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="btn" href="#contact">Let's Talk <span class="btn__arrow">→</span></a>
+    <ul class="social-links">
+      <li>
+        <a href="https://www.instagram.com/malekkaseb01" rel="noopener" target="_blank" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6"
+            aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+            <circle cx="12" cy="12" r="4.2"></circle>
+            <circle cx="17.4" cy="6.6" r="1"></circle>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.tiktok.com/@malekkaseb01" rel="noopener" target="_blank" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
+            <path
+              d="M16.6 3c.3 2.1 1.6 3.5 3.6 3.7v3.2c-1.3 0-2.5-.4-3.6-1.1v6.2c0 3.3-2.7 6-6 6s-6-2.7-6-6 2.7-6 6-6c.3 0 .6 0 .9.1v3.3c-.3-.1-.6-.2-.9-.2-1.5 0-2.8 1.3-2.8 2.8s1.3 2.8 2.8 2.8 2.8-1.3 2.8-2.8V3h3.2z" />
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/malekkaseb01" rel="noopener" target="_blank" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
+            <path
+              d="M13.6 21v-7.2h2.4l.4-2.9h-2.8V9.1c0-.9.3-1.4 1.5-1.4h1.4V5.1c-.3 0-1.1-.1-2.1-.1-2.1 0-3.6 1.3-3.6 3.7v2.2H8.5v2.9h2.3V21h2.8z" />
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <main>
+    <section class="hero section section--dark" id="home" aria-labelledby="home-title">
+
+      <div class="hero__portrait">
+        <div class="placeholder"></div>
+        <picture>
+          <img class="hero__img" src="assets/hero-portrait-1200.webp"
+            srcset="assets/hero-portrait-800.webp 800w, assets/hero-portrait-1200.webp 1200w, assets/hero-portrait-1800.webp 1800w"
+            sizes="(min-width: 900px) 70vw, 100vw" alt="Malek Ahmed at his editing desk" width="1800" height="1200"
+            fetchpriority="high" decoding="async" onerror="this.classList.add('is-missing')">
+        </picture>
+      </div>
+
+      <p class="hero__script script">Ideas Edited Better.</p>
+
+      <div class="hero__rail">
+        <p class="micro-label hero__rail-text">Ideas Edited Better</p>
+        <span class="hero__rule"></span>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="hero__eyebrow micro-label">Video Editor &amp;<br>Content Creator</p>
+          <span class="hero__rule"></span>
+          <h1 class="hero__name display" id="home-title">
+            <span class="hero__line hero__line--1">Malek<span class="hero__dash" aria-hidden="true"></span></span>
+            <span class="hero__line hero__line--2"><span class="hero__dash" aria-hidden="true"></span>Ahmed</span>
+          </h1>
+          <p class="hero__tagline micro-label">Turn Ideas<br>Into Impact</p>
+        </div>
+      </div>
+
+      <a href="#work" class="hero__cue">
+        <span class="hero__cue-mouse" aria-hidden="true"><span class="hero__cue-dot"></span></span>
+        <span class="micro-label">Scroll<br>to Explore</span>
+      </a>
+
+      <ul class="social-links hero__socials">
+        <li>
+          <a href="https://www.instagram.com/malekkaseb01" rel="noopener" target="_blank" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6"
+              aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+              <circle cx="12" cy="12" r="4.2"></circle>
+              <circle cx="17.4" cy="6.6" r="1"></circle>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.tiktok.com/@malekkaseb01" rel="noopener" target="_blank" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
+              <path
+                d="M16.6 3c.3 2.1 1.6 3.5 3.6 3.7v3.2c-1.3 0-2.5-.4-3.6-1.1v6.2c0 3.3-2.7 6-6 6s-6-2.7-6-6 2.7-6 6-6c.3 0 .6 0 .9.1v3.3c-.3-.1-.6-.2-.9-.2-1.5 0-2.8 1.3-2.8 2.8s1.3 2.8 2.8 2.8 2.8-1.3 2.8-2.8V3h3.2z" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/malekkaseb01" rel="noopener" target="_blank" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
+              <path
+                d="M13.6 21v-7.2h2.4l.4-2.9h-2.8V9.1c0-.9.3-1.4 1.5-1.4h1.4V5.1c-.3 0-1.1-.1-2.1-.1-2.1 0-3.6 1.3-3.6 3.7v2.2H8.5v2.9h2.3V21h2.8z" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section section--cream work" id="work" aria-labelledby="work-title">
+      <div class="container work__inner">
+
+        <header class="work__head">
+          <div class="work__head-left">
+            <p class="section-label"><span class="section-label__num">02</span> — Selected Work</p>
+            <h2 class="work__title display" id="work-title">
+              <span class="work__title-line">Videos</span>
+              <span class="work__title-line">That</span>
+              <span class="work__title-line">Move People.</span>
+            </h2>
+            <p class="work__script script">More Than Just Editing.</p>
+          </div>
+
+          <div class="work__head-right">
+            <p class="work__intro">A selection of projects I've edited for brands, creators, and businesses. From
+              short-form reels to long-form content — different styles, same goal: real impact.</p>
+            <div class="work__stat">
+              <p class="script work__stat-script">Ideas Edited Better.</p>
+              <span class="work__stat-rule" aria-hidden="true"></span>
+              <div class="work__stat-col">
+                <p class="work__stat-num display">+5M</p>
+                <p class="micro-label">Total Views<br>Across Platforms</p>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div class="chips" role="group" aria-label="Filter projects by category">
+          <button type="button" class="chip" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="chip" data-filter="commercial" aria-pressed="false">Commercial</button>
+          <button type="button" class="chip" data-filter="personal-brand" aria-pressed="false">Personal Brand</button>
+          <button type="button" class="chip" data-filter="documentary" aria-pressed="false">Documentary</button>
+          <button type="button" class="chip" data-filter="motion-graphics" aria-pressed="false">Motion Graphics</button>
+        </div>
+        <p class="work__count visually-hidden" aria-live="polite"></p>
+
+        <div class="reels">
+          <div class="sub-head">
+            <h3 class="sub-head__title" id="reels-heading" tabindex="-1">Reels &amp; short-form<span
+                class="sub-head__count micro-label"></span></h3>
+            <div class="sub-head__nav">
+              <button type="button" class="arrow-btn reels__prev" aria-label="Previous reels">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                  stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14.5 5.5l-7 6.5 7 6.5"></path>
+                </svg>
+              </button>
+              <button type="button" class="arrow-btn arrow-btn--filled reels__next" aria-label="Next reels">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                  stroke-linejoin="round" aria-hidden="true">
+                  <path d="M9.5 5.5l7 6.5-7 6.5"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="reels__track" tabindex="0" aria-label="Reels, scroll horizontally"></div>
+          <p class="work__empty" hidden>No reels in this category yet.</p>
+        </div>
+
+        <div class="long">
+          <div class="sub-head">
+            <h3 class="sub-head__title">Long-form<span class="sub-head__count micro-label"></span></h3>
+          </div>
+          <div class="long__grid">
+            <div class="long__featured"></div>
+            <div class="long__side"></div>
+          </div>
+          <div class="long__more"></div>
+          <p class="work__empty" hidden>No long-form projects in this category yet.</p>
+        </div>
+
+        <footer class="work__foot">
+          <p class="counter">
+            <span class="counter__rule" aria-hidden="true"></span>
+            <span class="counter__num">02</span> / <span class="counter__total">06</span>
+            <span class="counter__rule" aria-hidden="true"></span>
+          </p>
+
+          <div class="work__foot-right">
+            <a class="work__all" href="#work">View All Projects <span class="btn__arrow">→</span></a>
+            <div class="work__sign-block">
+              <p class="script work__sign">Malek</p>
+              <p class="micro-label">Video Editor<br>Storyteller<br>Problem Solver</p>
+            </div>
+          </div>
+        </footer>
+
+      </div>
+    </section>
+
+    <!-- lightbox + templates: place after </main> -->
+    <dialog class="lightbox" aria-labelledby="lightbox-title">
+      <div class="lightbox__inner">
+        <div class="lightbox__head">
+          <h2 class="lightbox__title" id="lightbox-title"></h2>
+          <button type="button" class="lightbox__close" aria-label="Close video">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+              aria-hidden="true">
+              <line x1="5" y1="5" x2="19" y2="19"></line>
+              <line x1="19" y1="5" x2="5" y2="19"></line>
+            </svg>
+          </button>
+        </div>
+        <div class="lightbox__frame" data-format=""></div>
+      </div>
+    </dialog>
+
+    <template id="tpl-card">
+      <button type="button" class="card" data-id="">
+        <div class="card__media">
+          <div class="placeholder"></div>
+          <img class="card__img" alt="" loading="lazy" decoding="async" hidden>
+        </div>
+        <span class="card__format micro-label"></span>
+        <span class="card__duration"></span>
+        <div class="card__body">
+          <h4 class="card__title"></h4>
+          <p class="card__tags"></p>
+        </div>
+        <span class="play-btn" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+            <path d="M8 5l12 7-12 7z"></path>
+          </svg>
+        </span>
+      </button>
+    </template>
+
+    <template id="tpl-card-featured">
+      <button type="button" class="card card--featured" data-id="">
+        <div class="card__media">
+          <div class="placeholder"></div>
+          <img class="card__img" alt="" loading="lazy" decoding="async" hidden>
+        </div>
+        <span class="card__format micro-label"></span>
+        <span class="card__duration"></span>
+        <div class="card__body">
+          <p class="card__eyebrow micro-label"></p>
+          <h4 class="card__title card__title--big display"></h4>
+          <p class="card__desc"></p>
+          <div class="card__meta">
+            <span class="card__avatar placeholder" aria-hidden="true"></span>
+            <span class="card__client-col">
+              <span class="card__client"></span>
+              <span class="card__tags"></span>
+            </span>
+            <span class="card__cta">Watch Video</span>
+          </div>
+        </div>
+        <span class="play-btn" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+            <path d="M8 5l12 7-12 7z"></path>
+          </svg>
+        </span>
+      </button>
+    </template>
+
+    <section class="section section--dark testi" id="testimonials" aria-labelledby="testimonials-title">
+      <div class="container">
+
+        <div class="testi__head">
+          <div class="testi__head-left">
+            <p class="section-label"><span class="section-label__num">03</span> — Testimonials</p>
+            <h2 class="testi__title display" id="testimonials-title">What Clients<br>Say<span
+                class="testi__dot">.</span></h2>
+          </div>
+
+          <p class="testi__intro">I'm lucky to work with amazing people. Here's what some of my clients and
+            collaborators have to say.</p>
+
+          <div class="testi__head-right">
+            <p class="testi__script script">People I've Worked With</p>
+            <div class="testi__nav">
+              <button type="button" class="arrow-btn testi__prev" aria-label="Previous testimonial">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"
+                  aria-hidden="true">
+                  <path d="M15 5l-7 7 7 7"></path>
+                </svg>
+              </button>
+              <button type="button" class="arrow-btn arrow-btn--filled testi__next" aria-label="Next testimonial">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"
+                  aria-hidden="true">
+                  <path d="M9 5l7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi__carousel">
+          <button type="button" class="arrow-btn testi__side testi__side--prev" aria-label="Previous testimonial">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"
+              aria-hidden="true">
+              <path d="M15 5l-7 7 7 7"></path>
+            </svg>
+          </button>
+
+          <div class="testi__track" id="testi-track" tabindex="0" role="group" aria-roledescription="carousel"
+            aria-label="Client testimonials">
+            <!-- .testi__card elements injected here by testimonials.js -->
+          </div>
+
+          <button type="button" class="arrow-btn testi__side testi__side--next" aria-label="Next testimonial">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"
+              aria-hidden="true">
+              <path d="M9 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+
+        <p class="visually-hidden testi__status" aria-live="polite"></p>
+
+        <div class="dots testi__dots" role="group" aria-label="Choose testimonial">
+          <!-- .dots__dot buttons injected here by testimonials.js -->
+        </div>
+
+        <div class="testi__foot">
+          <p class="counter testi__counter"><span class="counter__rule" aria-hidden="true"></span><span
+              class="counter__num">03</span> / <span class="counter__total">06</span><span class="counter__rule"
+              aria-hidden="true"></span></p>
+
+          <div class="testi__foot-right">
+            <p class="script testi__more">More To Come</p>
+            <p class="micro-label testi__tag">Same Passion.<br>Bigger Stories.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- template: place after </main> -->
+    <template id="tpl-testimonial">
+      <article class="testi__card">
+        <p class="quote-mark" aria-hidden="true">&#10077;&#10077;</p>
+        <blockquote class="testi__quote"></blockquote>
+        <div class="testi__logo"></div>
+        <div class="testi__divider" aria-hidden="true"></div>
+        <div class="testi__person">
+          <div class="testi__avatar placeholder"></div>
+          <div class="testi__person-copy">
+            <p class="testi__name"></p>
+            <p class="testi__role"></p>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <section class="section section--cream about" id="about" aria-labelledby="about-title">
+      <div class="container">
+
+        <div class="about__grid">
+
+          <div class="about__media">
+            <div class="about__portrait">
+              <div class="placeholder"></div>
+              <img class="about__img" src="assets/about-portrait-900.webp"
+                srcset="assets/about-portrait-600.webp 600w, assets/about-portrait-900.webp 900w, assets/about-portrait-1200.webp 1200w"
+                sizes="(min-width: 1000px) 40vw, 100vw" width="900" height="1125" alt="Malek Ahmed in his studio"
+                loading="lazy" decoding="async" onerror="this.classList.add('is-missing')">
+            </div>
+            <p class="script about__script">Behind every cut, a reason.</p>
+          </div>
+
+          <div class="about__body">
+            <p class="section-label"><span class="section-label__num">04</span> — About</p>
+            <h2 class="about__title display" id="about-title">Behind<br>The Cut<span class="about__dot">.</span></h2>
+
+            <p class="about__text">I'm Malek Ahmed, a video editor and content creator based in Egypt, working with
+              brands, founders, and creators worldwide. For the past five years I've cut everything from 15-second
+              product reels to 40-minute documentaries — and the goal has never changed: make the idea land.</p>
+            <p class="about__text">My process starts with the story, not the timeline. I look for the moment that earns
+              attention, build the rhythm around it, then finish with colour, sound and motion that serve the message.
+              Clear briefs, honest timelines, and a first cut you'll actually want to watch.</p>
+
+            <div class="about__stats">
+              <div class="stat">
+                <p class="stat__num display">5+</p>
+                <p class="stat__label micro-label">Years<br>Editing</p>
+              </div>
+              <div class="stat">
+                <p class="stat__num display">120+</p>
+                <p class="stat__label micro-label">Projects<br>Delivered</p>
+              </div>
+              <div class="stat">
+                <p class="stat__num display">+5M</p>
+                <p class="stat__label micro-label">Views<br>Across Platforms</p>
+              </div>
+            </div>
+
+            <div class="about__tools">
+              <p class="micro-label about__tools-label">Tools</p>
+              <ul class="about__tool-list">
+                <li class="tool-chip">Premiere Pro</li>
+                <li class="tool-chip">After Effects</li>
+                <li class="tool-chip">DaVinci Resolve</li>
+                <li class="tool-chip">Photoshop</li>
+                <li class="tool-chip">Audition</li>
+                <li class="tool-chip">CapCut</li>
+              </ul>
+            </div>
+
+            <div class="about__sig">
+              <span class="about__sig-rule" aria-hidden="true"></span>
+              <p class="script about__signature">Malek Ahmed</p>
+            </div>
+
+            <div class="about__foot">
+              <p class="counter about__counter"><span class="counter__rule" aria-hidden="true"></span><span
+                  class="counter__num">04</span> / <span class="counter__total">06</span><span class="counter__rule"
+                  aria-hidden="true"></span></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section section--dark services" id="services" aria-labelledby="services-title">
+      <div class="container">
+
+        <div class="services__head">
+          <div class="services__head-left">
+            <p class="section-label"><span class="section-label__num">05</span> — Services</p>
+            <h2 class="services__title display" id="services-title">What I<br>Deliver<span
+                class="services__dot">.</span></h2>
+          </div>
+          <div class="services__head-right">
+            <p class="services__intro">Four ways to work together. Every service lists exactly what you get and how long
+              it takes — no surprises, no vague &ldquo;premium packages.&rdquo;</p>
+            <p class="script services__script">Scope first. Then speed.</p>
+          </div>
+        </div>
+
+        <div class="services__grid">
+
+          <article class="service">
+            <p class="service__index"><span aria-hidden="true">01</span><span class="visually-hidden">Service 1</span>
+            </p>
+            <h3 class="service__title">Short-form editing</h3>
+            <p class="service__desc">Vertical cuts for Reels, TikTok and Shorts, built to hold attention from the first
+              frame.</p>
+            <ul class="service__list">
+              <li>15–60 s vertical edits</li>
+              <li>Captions and on-screen text</li>
+              <li>Sound design and music sync</li>
+              <li>Exports in 9:16, 1:1 and 4:5</li>
+              <li>Two revision rounds</li>
+            </ul>
+            <div class="service__foot">
+              <p class="micro-label service__turn-label">Turnaround</p>
+              <p class="service__turn">48–72 hours per video</p>
+            </div>
+          </article>
+
+          <article class="service">
+            <p class="service__index"><span aria-hidden="true">02</span><span class="visually-hidden">Service 2</span>
+            </p>
+            <h3 class="service__title">Long-form &amp; YouTube</h3>
+            <p class="service__desc">Full edits for YouTube videos, interviews and podcasts, from raw footage to
+              upload-ready master.</p>
+            <ul class="service__list">
+              <li>Multicam sync and pacing cut</li>
+              <li>Colour correction and audio mix</li>
+              <li>B-roll, graphics and captions</li>
+              <li>Three thumbnail options</li>
+              <li>Chapters and end screen</li>
+            </ul>
+            <div class="service__foot">
+              <p class="micro-label service__turn-label">Turnaround</p>
+              <p class="service__turn">5–7 days per 15 minutes of final runtime</p>
+            </div>
+          </article>
+
+          <article class="service">
+            <p class="service__index"><span aria-hidden="true">03</span><span class="visually-hidden">Service 3</span>
+            </p>
+            <h3 class="service__title">Commercial &amp; brand films</h3>
+            <p class="service__desc">Product launches, campaign spots and brand stories cut to a brief and a deadline.
+            </p>
+            <ul class="service__list">
+              <li>Cut from script or shot list</li>
+              <li>Colour grade and sound mix</li>
+              <li>Licensed music selection</li>
+              <li>Master plus platform cutdowns</li>
+              <li>Motion titles and end card</li>
+            </ul>
+            <div class="service__foot">
+              <p class="micro-label service__turn-label">Turnaround</p>
+              <p class="service__turn">2–3 weeks from footage handover</p>
+            </div>
+          </article>
+
+          <article class="service">
+            <p class="service__index"><span aria-hidden="true">04</span><span class="visually-hidden">Service 4</span>
+            </p>
+            <h3 class="service__title">Motion graphics</h3>
+            <p class="service__desc">Animated elements that explain, brand or punctuate a video.</p>
+            <ul class="service__list">
+              <li>Logo animations and reveals</li>
+              <li>Lower thirds and title packages</li>
+              <li>Kinetic typography</li>
+              <li>Animated infographics</li>
+              <li>Source project files included</li>
+            </ul>
+            <div class="service__foot">
+              <p class="micro-label service__turn-label">Turnaround</p>
+              <p class="service__turn">3–5 days per 30 seconds of animation</p>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="services__foot">
+          <p class="services__note">Need something that isn't listed? Send the brief and I'll scope it.</p>
+          <a class="btn" href="#contact">Let's Talk <span class="btn__arrow">→</span></a>
+          <p class="counter services__counter"><span class="counter__rule" aria-hidden="true"></span><span
+              class="counter__num">05</span> / <span class="counter__total">06</span><span class="counter__rule"
+              aria-hidden="true"></span></p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section section--cream contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+
+        <div class="contact__head">
+          <p class="section-label"><span class="section-label__num">06</span> — Contact</p>
+          <h2 class="contact__title display" id="contact-title">Let's Make<br>Something<span
+              class="contact__dot">.</span></h2>
+          <p class="script contact__script">Your idea, edited better.</p>
+        </div>
+
+        <div class="contact__grid">
+
+          <div class="contact__aside">
+            <p class="contact__text">Tell me about the project — platform, length, deadline, and what you want it to do.
+              I reply within one business day.</p>
+
+            <div class="contact__actions">
+              <a class="btn" href="https://wa.me/201019483546" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M12.04 2c-5.5 0-9.96 4.46-9.96 9.96 0 1.76.46 3.48 1.33 5L2 22l5.2-1.36a9.94 9.94 0 0 0 4.84 1.23h.01c5.5 0 9.96-4.46 9.96-9.96S17.54 2 12.04 2zm5.8 14.24c-.24.68-1.4 1.3-1.93 1.38-.5.08-1.12.11-1.8-.11-.42-.13-.95-.31-1.64-.6-2.88-1.24-4.76-4.14-4.9-4.33-.14-.19-1.17-1.56-1.17-2.98 0-1.42.74-2.11 1-2.4.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.58.81 2 .88 2.14.07.14.12.31.02.5-.09.19-.14.31-.28.48-.14.17-.29.37-.42.5-.14.14-.28.29-.12.57.16.28.71 1.17 1.53 1.9 1.05.94 1.93 1.23 2.21 1.37.28.14.44.12.6-.07.16-.19.68-.79.87-1.06.19-.28.37-.23.63-.14.26.09 1.63.77 1.91.91.28.14.47.21.54.33.07.12.07.69-.17 1.38z">
+                  </path>
+                </svg>
+                WhatsApp
+              </a>
+              <a class="btn btn--ghost" href="mailto:malekahmed4514@gmail.com">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"
+                  aria-hidden="true">
+                  <rect x="3" y="5" width="18" height="14" rx="2.5"></rect>
+                  <path d="M4 7l8 6 8-6"></path>
+                </svg>
+                Send a mail!
+              </a>
+            </div>
+
+            <p class="micro-label contact__label">Elsewhere</p>
+            <ul class="social-links contact__socials">
+              <li>
+                <a href="https://www.instagram.com/malekkaseb01" rel="noopener" target="_blank" aria-label="Instagram">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6"
+                    aria-hidden="true">
+                    <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                    <circle cx="12" cy="12" r="4.2"></circle>
+                    <circle cx="17.4" cy="6.6" r="1"></circle>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.tiktok.com/@malekkaseb01" rel="noopener" target="_blank" aria-label="TikTok">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
+                    <path
+                      d="M16.6 3c.3 2.1 1.6 3.5 3.6 3.7v3.2c-1.3 0-2.5-.4-3.6-1.1v6.2c0 3.3-2.7 6-6 6s-6-2.7-6-6 2.7-6 6-6c.3 0 .6 0 .9.1v3.3c-.3-.1-.6-.2-.9-.2-1.5 0-2.8 1.3-2.8 2.8s1.3 2.8 2.8 2.8 2.8-1.3 2.8-2.8V3h3.2z" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/malekkaseb01" rel="noopener" target="_blank" aria-label="Facebook">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
+                    <path
+                      d="M13.6 21v-7.2h2.4l.4-2.9h-2.8V9.1c0-.9.3-1.4 1.5-1.4h1.4V5.1c-.3 0-1.1-.1-2.1-.1-2.1 0-3.6 1.3-3.6 3.7v2.2H8.5v2.9h2.3V21h2.8z" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact__form-wrap">
+            <form class="form" name="contact" method="POST" action="/" data-netlify="true" netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="contact">
+
+              <p class="form__hp hidden" aria-hidden="true">
+                <label>Don't fill this out if you're human: <input name="bot-field" tabindex="-1"
+                    autocomplete="off"></label>
+              </p>
+
+              <div class="form__row">
+                <div class="form__field">
+                  <label class="form__label" for="f-name">Name</label>
+                  <input class="form__control" type="text" id="f-name" name="name" required autocomplete="name">
+                </div>
+                <div class="form__field">
+                  <label class="form__label" for="f-email">Email</label>
+                  <input class="form__control" type="email" id="f-email" name="email" required autocomplete="email">
+                </div>
+              </div>
+
+              <div class="form__field">
+                <label class="form__label" for="f-type">Project type</label>
+                <select class="form__control" id="f-type" name="project-type" required>
+                  <option value="" disabled selected>Choose one</option>
+                  <option value="short-form">Short-form reels</option>
+                  <option value="long-form">Long-form / YouTube</option>
+                  <option value="commercial">Commercial / brand film</option>
+                  <option value="motion-graphics">Motion graphics</option>
+                  <option value="other">Something else</option>
+                </select>
+              </div>
+
+              <div class="form__field">
+                <label class="form__label" for="f-budget">Budget</label>
+                <select class="form__control" id="f-budget" name="budget">
+                  <option value="" selected>Prefer not to say</option>
+                  <option value="under-500">Under $500</option>
+                  <option value="500-1500">$500 – $1,500</option>
+                  <option value="1500-5000">$1,500 – $5,000</option>
+                  <option value="5000-plus">$5,000+</option>
+                </select>
+              </div>
+
+              <div class="form__field">
+                <label class="form__label" for="f-message">Message</label>
+                <textarea class="form__control" id="f-message" name="message" rows="5" required></textarea>
+              </div>
+
+              <button type="submit" class="btn form__submit">Send Message <span class="btn__arrow">→</span></button>
+              <p class="form__note">Sent through Netlify Forms. No tracking, no mailing list.</p>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- footer: place after </main> -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <a class="footer__brand" href="#home" aria-label="Malek Ahmed — home">MA</a>
+
+        <nav class="footer__nav" aria-label="Footer">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <p class="footer__copy">© 2026 Malek Ahmed. Ideas edited better.</p>
+
+        <a class="footer__top" href="#home">Back to top <span class="btn__arrow">↑</span></a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="projects.js" defer></script>
+  <script src="main.js" defer></script>
+</body>
+
+</html>
